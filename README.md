@@ -46,4 +46,4 @@ To:
       }
     },
 ```
-
+execute ./covert.sh
