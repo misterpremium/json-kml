@@ -2,6 +2,7 @@
 Script to conver json to kml
 Remove "semanticSgmets" lavel and the "rawSginals" to the end of file:
 FROM:
+```
 {
   "semanticSegments": [
     {
@@ -22,8 +23,9 @@ FROM:
         }
       }
     },
-
+```
 To:
+```
 [
   {
       "startTime": "1996-10-09T15:00:00.000+02:00",
@@ -43,5 +45,5 @@ To:
         }
       }
     },
-
+```
 
